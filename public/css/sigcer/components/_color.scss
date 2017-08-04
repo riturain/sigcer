@@ -1,0 +1,88 @@
+// Utility Color Classes
+
+//.success {
+//
+//}
+
+// Google Color Palette defined: http://www.google.com/design/spec/style/color.html
+$shades: (
+	"black":        #000000,
+	"white":        #FFFFFF,
+	"transparent":  transparent
+);
+
+$gob: (
+  "lighten-3":  #66CCFF,
+  "lighten-2":  #41C4DD,
+  "lighten-1":  #40B4C4,
+  "base":       #03ADC4,
+  "darken-1":   #0077BB,
+  "darken-2":   #0055AA,
+  "darken-3":   #004599
+);
+
+$contraste: (
+	"lighten-3":  #bfbfbf,
+	"lighten-2":  #646368,
+	"lighten-1":  #605f64,
+	"base":       #5b5a5f,
+	"darken-1":   #56555a,
+	"darken-2":   #504f53,
+	"darken-3":   #434346
+);
+
+$colors: (
+	"shades": $shades,
+	"gob": $gob,
+	"contraste": $contraste
+);
+
+
+// Color Classes
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type == "base" {
+      .#{$color_name} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text {
+        color: $color_value !important;
+      }
+    }
+    @else if $color_name != "shades" {
+      .#{$color_name}.#{$color_type} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text.text-#{$color_type} {
+        color: $color_value !important;
+      }
+    }
+  }
+}
+
+// Shade classes
+@each $color, $color_value in $shades {
+  .#{$color} {
+    background-color: $color_value !important;
+  }
+  .#{$color}-text {
+    color: $color_value !important;
+  }
+}
+
+
+// usage: color("name_of_color", "type_of_color")
+// to avoid to repeating map-get($colors, ...)
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
+

@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #999999;
+	box-shadow: none !important;
+}
+
+.container .unprintable, .container .btn:not(td), .container .botonera, .container .dataTables_paginate, .container .picker, .container .btn-floating, .container .dataTables_filter, .container .pagination, .container .caret {
+	display: none !important;
+}
+
+.container div, .container table, .container thead, .container tbody, .container tr, .container th, .container td, .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
+	box-shadow: 0 0 0 0 transparent !important;
+	text-shadow: none !important;
+}
+
+.container h1,  .container td.btn{
+	background-color: transparent !important;
+}
+.container td.btn{
+	color: transparent !important;
+}
+
+.container .collapsible-body {
+	display: block !important;
+}
+
+.container th.sorting_desc, .container th.sorting_asc, .container th.sorting {
+	background: none;
+}
+
+.container {
+	/*
+	width: 1280px !important;
+	min-height: 1810px !important;
+	*/
+	
+	width: 1458px !important;
+	min-height: 2006px !important;
+	background-color: white !important;
+	margin-bottom: 60px !important;
+	margin-top: 60px !important;
+	padding: 134px 98px 100px 98px !important;
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+.fixed-action-btn .btn-floating {
+	border-radius: 50% !important;
+}
+
+.fixed-action-btn{
+	border-radius: 50% !important;
+	z-index: 1000;
+}
+
+
+#print-preview-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0,0,0,0);
+    z-index: 999;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

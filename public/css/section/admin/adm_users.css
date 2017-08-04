@@ -1,0 +1,17 @@
+.tblDatos{	
+	margin: 1em;
+	border-spacing: 0px;
+	background-color: #ddd;	
+}
+.tblDatos tr th{
+	background-color: #9aca3c !important;
+	padding: 0 1em 0 1em;
+	color: white;
+}
+.tblDatos tr td{
+	padding: 0 1em 0 1em;
+	text-align: left;
+}
+.tblDatos tr:hover{
+	background-color: yellow !important;
+}

@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+#acc_encuesta_form{
+	padding: 2em;
+	clear: both;
+}
+
+fieldset {
+    background-color: #eaeaea !important;    
+}
+
+.comentario{
+	font-style:italic;
+	color: gray;
+}
+.title-h{
+	color: black;
+	margin: 0 auto;
+	padding: 0;
+	width: 700px;
+}
+.aclaracion{
+	font-size: 18px;
+	margin: 0 auto;
+	font-weight: bold;
+	color: black;
+	width: 700px;
+}

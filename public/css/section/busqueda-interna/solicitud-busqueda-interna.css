@@ -1,0 +1,88 @@
+
+#form-solicitud-busqueda-interna{
+    text-align: left;
+    padding-left: 1em;
+}
+#dat_email {
+    text-transform: lowercase;
+}
+.link-volver {
+   color: #9aca3c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.noBorder {
+   max-width:90%;
+   margin: 0 auto;
+}
+
+.label-info, .badge-info {
+   background-color: #9aca3c;
+}
+.label {
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+.label, .badge {
+   display: inline-block;
+   padding: 3px 8px;
+   font-size: 11.844px;
+   font-weight: bold;
+   line-height: 14px;
+   color: #ffffff;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+   white-space: nowrap;
+   vertical-align: baseline;
+}
+
+.solicitud-busqueda-textarea {
+    height: 45px;
+    width: 348px;
+    resize: none;
+}
+
+.btn-guardar {
+    width: 70%;
+    margin-top: 3px;
+}
+
+.requiredLegend {
+    font-family: 'Source Sans Pro',Calibri, sans-serif, Verdana, Arial;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    text-align: right;
+    margin-right: 65px;
+    margin-bottom: -10px;
+}
+
+.align-tipo-postulacion {
+    margin-left: 0px;
+}
+.data_table {
+    width: 100%;
+}
+
+.td_label {
+    width:27%
+}
+
+h1, h2, h3 {
+    color: #9aca3c;
+    margin-top: 12px;
+    padding-top: 0;
+}
+
+.pdfClass:active, .pdfClass:link, .pdfClass:visited, .pdfClass:hover, .pdfClass:focus {
+    color: inherit;
+    text-decoration: underline;
+}
+
+fieldset label{
+    display:block;
+}
+fieldset label.error{
+    color:red;
+}

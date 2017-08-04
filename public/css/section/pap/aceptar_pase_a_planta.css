@@ -1,0 +1,31 @@
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+     position: absolute;
+     left: -9999px;
+     opacity: 0;
+}
+
+[type="checkbox"]:checked:disabled+label:before {
+    border-right: 2px solid #9ACA3C !important;
+    border-bottom: 2px solid #9ACA3C !important;
+}
+
+    
+
+
+
+/*input[type="checkbox"]:required {
+    display: none;
+}
+
+input[type="checkbox"]:required:invalid + label::before {
+	content: "\2610";
+	padding-right: 0.2em;
+	font-size: 1.6em;
+	color: red;
+}
+input[type="checkbox"]:required:valid + label::before {
+	content: "\2611";
+	padding-right: 0.2em;
+	font-size: 1.6em;
+	color: green;
+}*/

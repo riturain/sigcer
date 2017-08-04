@@ -1,0 +1,101 @@
+div.clear {
+    clear: both;
+}
+a.btn:link{
+    background-color: #9aca3c;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.btn.gris:link{
+    background-color: #888;
+}
+
+.error {
+    color:#ff0000;
+}
+
+
+#containerResponsables{
+    margin: 10px 0;
+}
+
+
+#data_left_container{
+    padding-left: 2%;
+    width: 96%;
+}
+
+
+#grillaSolicitudes {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#grillaSolicitudes thead tr{
+    background-color: cadetblue;
+    height: 25px;
+}
+
+
+#grillaSolicitudes tbody tr{
+    /*background-color: #761c19;*/
+}
+
+
+#grillaSolicitudes tbody input {
+    /*background-color: #761c19;*/
+}
+
+
+
+table.grilla tbody tr:hover {
+    background-color: #E6FFCC;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.option_inicial{
+    background-color: #080;
+}
+.optionenproceso{
+    background-color: #6600CC;
+}
+.option_cancelada{
+    background-color: #761c19;
+}
+.option_terminada{
+    background-color: #97c73a;
+}
+
+#grillaSolicitudes .btn {
+    padding: 0px 10px;
+    border-radius: 0px;
+    margin: 3px 0;
+    font-size: 12px;
+}
+
+
+
+#formPerfil{
+    /*	text-align: left;*/
+    padding-left: 1em
+}
+.button_navegation, input{
+    width: 30px;
+
+}
+
+#modalAltaSolicitud {
+    font-family: arial, sans-serif;
+}
+
+#modalAltaSolicitud table {
+    width: 100%;
+}

@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+html, body { 
+	height: 100%;
+}
+body {
+	font-family: Calibri, Helvetica, Verdana, Arial;
+	font-size: 12px;
+	text-align: center;
+}
+#top{
+	margin: 0;
+	background-color: #CCC;	
+	height: 50px;
+}
+#wrapper{
+	border: 2px solid black;
+	width: 100%;
+	height: 900px;
+}
+#wrapperTable{
+	margin: 0 auto 0 auto;
+	width: 90%;
+}
+.BorderTable{    
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 10px;
+}
+.BorderTable tr td{
+	border: 1px solid black;
+}
+.cuadrito{
+    border: solid 1px black;
+}
+.seccion{
+	background-color: #CCC;
+}
+.izquierda{
+	text-align:left;
+}
+.derecha{
+	text-align:right;
+}
+.centrado{
+    text-align: center !important;
+}
+.grisclaro{
+    color: #cccccc;
+}
+.letraPeque{
+	font-size: 10px !important;
+}
+.tipoPresentacion table tr td{
+	font-size: 10px !important;
+	padding-left: 1em;
+}
+.negro{
+	color: black !important;
+}
+.anchoEntero{
+	width: 100%;
+}
+.bordeTabla,.bordeTabla tr, .bordeTabla td{
+	border-spacing: 0;
+	border: 0.5px solid black;
+}

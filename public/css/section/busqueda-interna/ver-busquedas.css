@@ -1,0 +1,366 @@
+
+fieldset {
+    background-color: #ffffff !important;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+#formPerfil{
+	text-align: left;
+	padding-left: 1em;
+}
+#sec_datos_personales{
+	display: table;
+}
+#sec_datos_personales section{
+	display: table-row;
+	border-style: solid;
+	border-width: 2px;
+}
+#sec_datos_personales label, #sec_datos_personales input{
+	display: table-cell;
+	vertical-align: top;
+}
+
+.texto-ayuda {
+	font-size: 14px;
+}
+/**/
+.data_table {
+	width: 100%;
+}
+
+/*.data_table td {
+	height: 22px;
+}
+/**/
+.celda-boton {
+	text-align: center;
+}
+.td_centered {
+	text-align: center;
+	width: auto;
+}
+
+.data_table th{
+	background-color: #9aca3c;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 14px;
+}
+/**/
+.link-modal:link{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.link-modal:visited{
+	color:#000;
+}
+
+.link-modal:hover{
+   color:#9FCF3F;
+}
+
+.modal-gris{
+	background-color: #ddd;
+}
+.aviso-requeridos {
+	color: #f00;
+	font-weight:bold;
+}
+
+input {
+	width: 90%;
+}
+
+textarea {
+	width: 90%;
+	resize: none;
+}
+
+.selector {
+	width: 90%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.boton-accion {
+	width: 30px;
+}
+.boton-accion span {
+	padding: 0px;
+	margin: 0px;
+}
+
+.botonPostularme {
+   width: 90px;
+}
+
+.botonPostularme:hover {
+   color: #9ACA3C;
+   font-weight:bold;
+}
+/*.label-solicitada {
+	font-weight:bold;
+}
+.label-aprobada {
+	color: #9ACA3C;
+	font-weight:bold;
+}
+.label-finalizada {
+   font-weight:none;
+   color: #888;
+}*/
+.aprobada {
+   color: #9ACA3C;
+}
+.aprobada:hover {
+   color: #9ACA3C;
+   font-weight:bold;
+}
+.rechazada {
+   color: #F44D27;
+   /*width: 30px;*/
+}
+.rechazada:hover {
+   color: #F44D27;
+   font-weight: bold;
+}
+.finalizada {
+	color: #444;
+  /* width: 30px;*/
+}
+.finalizada:hover {
+	color: #000;
+   font-weight:bold;
+}
+.levantada {
+    color: #00f;
+}
+.levantada :hover {
+    color: #000;
+   font-weight:bold;
+}
+.input-checkbox{
+   width: auto;
+}
+
+.estructura{
+	font-weight:bold;
+	font-size: 16px;
+}
+.div-link-postulaciones{
+	padding: 10px;
+}
+
+.link-postulaciones {
+	color: #000;
+	text-decoration: none;
+	font-weight:bold;
+	font-family: arial;
+	/*font-size: 14px;*/
+}
+
+.dataTables_filter input {
+	width: auto;
+}
+
+.link-postulaciones:hover {
+   color: #9FCF3F;
+   text-decoration: none;
+   font-weight:bold;
+}
+
+#dat_Sexo, #dat_EstadoCivil, #dat_TipoDoc, #dat_MaxNivEducativo, #dat_estadoEstudios, #field_tipo, #field_parentesco {
+	width: 20%;
+}
+
+#dat_NroDocumento, #field_documento {
+	width: 69.7%;
+}
+
+#dat_TelCelularCar {
+	width: 20%;
+}
+#dat_TelCelular {
+	width: 67%;
+}
+#field_apellido, #field_name, #field_nacimiento {
+	width: 76% !important;
+	margin-top: 4px !important;
+}
+#field_tipo_int, #field_parentesco_int, #field_discapacitado {
+	width: 17% !important;
+	margin-top: 4px !important;
+}
+#field_documento_int {
+	width: 59% !important;
+	margin-top: 4px !important;
+}
+#label_field_apellido, #label_field_name, #label_field_nacimiento {
+	margin-right: 11.7% !important;
+}
+#label_field_nacimiento {
+	margin-right: 6% !important;
+}
+#label_field_tipo {
+	margin-right: 4.1% !important;
+}
+#label_field_parentesco {
+	margin-right: 10.2% !important;
+}
+#label_field_discapacitado {
+	margin-right: 9.3% !important;
+}
+.gris{
+	color: #888;
+}
+input[readonly]{
+    background-color: #E6E6E6;
+}
+#locationField input, #location2Field input {
+    background-color: #E0F8E0;
+}
+.botonDetalle{
+	/*background-color: #E6E6E6;*/
+	width: 60px;
+	color: #000;
+}
+.itemModal{
+	font-weight:bold;
+}
+
+.modal span{
+	font-size: 16px;
+}
+
+.itemDetalle{
+	font-weight: normal;
+}
+
+.modal{
+   min-width: 80%;
+}
+
+.noBorder {
+   max-width:90%;
+   margin: 0 auto;
+}
+
+.label-info, .badge-info {
+   background-color: #9aca3c;
+}
+.label {
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+.label {
+   display: inline-block;
+   padding: 3px 8px;
+   font-size: 11.844px;
+   font-weight: bold;
+   line-height: 14px;
+   color: #ffffff;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+   white-space: nowrap;
+   vertical-align: baseline;
+}
+
+.ui-autocomplete {
+max-height: 200px;
+max-width: 60%;
+font-size: 11px;
+overflow-y: auto;
+/* prevent horizontal scrollbar */
+overflow-x: auto;
+}
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+height: 100px;
+}
+
+/* .dataTables { */
+/* 	border: 1px solid black; */
+/*    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
+/* -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
+/* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
+/* } */
+/*agregado para cambiar el color del option seleccionado*/
+/*option{
+	-webkit-box-shadow: inset 0px 0px 69px 200px rgba(0,0,0,0.75);
+   -moz-box-shadow: inset 0px 0px 69px 200px rgba(0,0,0,0.75);
+   box-shadow: inset 0px 0px 69px 200px rgba(0,0,0,0.75);
+}*/
+/*
+select:hover{ color-background: #9ACA3C;}
+select:focus{ color-background: #9ACA3C;}
+select selected{ color-background: #9ACA3C;}
+select hidhlighted{ color-background: #9ACA3C;}
+option:focus{ color-background: #9ACA3C;}
+option, optgroup { 
+   -webkit-appearance: none;
+   color-background: #9ACA3C;
+   }
+::selection {
+   background: #9ACA3C;
+}
+
+::-moz-selection {
+   background: #9ACA3C;
+}
+*/
+
+#nombrePuestoSolicitado {
+	font-weight: bold;
+}
+/*
+#tablaPostulaciones, #tabla_aprobar_solicitudes {
+    font-size: 14px;
+    margin-bottom: 4px;
+    padding: 1em;
+}
+
+#tablaPostulaciones, #tabla_aprobar_solicitudes tr th{
+    background-color: #9aca3c;
+    font-weight:bold;
+    color:white;
+    text-align: center;
+    padding: 1px;
+}
+
+#tablaPostulaciones, #tabla_aprobar_solicitudes tr td{
+    padding: 2px 8px 0px 5px;
+    font-family:arial;
+    color:#333;
+    font-size:12px;
+    line-height:17px;
+}
+*/
+.td_label {
+	width: 20%;
+}
+
+.checked {
+	font-weight: bold;
+	background-color: #ccc;
+}
+
+.bloque-preseleccionado {
+	display: block;
+}
+
+.oculta {
+	display: none;
+	height: 0px;
+	visibility: hidden;/*visible|hidden|collapse|initial|inherit;*/
+}

@@ -1,0 +1,7 @@
+.responsive-icon {
+	width: 40px;
+}
+
+table.centered thead tr th, table.centered tbody tr td {
+    text-align: center !important;
+}

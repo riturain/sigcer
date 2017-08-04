@@ -1,0 +1,26 @@
+.navbar-rrhh{
+  background-color:#9aca3c;
+  border-color:transparent
+}
+.navbar-rrhh .navbar-brand, .nav>li>a {
+    color: #FFFFFF;
+}
+.navbar-brand {
+	height: 30px;
+}
+.navbar-toggle {
+    background-color: #ffffff;  
+}
+.navbar-toggle .icon-bar {
+  content: "\e040";
+  background-color: #9aca3c;
+}
+.padding-top {
+  padding-top: 10px
+}
+.tituloPeque{
+	font-size: 16px;
+}
+.navbar-static-top{
+	height: 80px;
+}

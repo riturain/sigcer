@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-oct-2016, 12:15:50
+    Author     : Usuario
+*/
+
+fieldset{
+    max-width: 86%;
+}
+
+fieldset table{
+    
+    width: 80%;
+}
+.input{
+    width: 135%;
+}
+
+h3{
+    
+    color: black;
+}
+

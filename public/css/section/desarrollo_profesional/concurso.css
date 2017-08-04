@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+.h2{
+	color: #9aca3c;
+	font-size: 16px;
+	font-weight: bold;
+}
+.h3{
+	color: #9aca3c;
+	font-size: 14px;
+	font-weight: bold;
+}
+h4{
+	color: black;
+	font-weight: bold;	
+}
+fieldset{
+	margin: 1em;
+	text-align: left;
+}
+table{
+	margin: 1em;
+}
+label{
+	font-weight:bold;
+}
+.enter:before {
+	content: "\A";
+	white-space:pre;
+}
+fieldset{
+	width: 100%;
+}
+fieldset fieldset legend{
+	background-color: gray;	
+}
+.aclaracion{
+	color: gray;
+}
+.tbl_multi{	
+	margin: 0 auto;
+	border-spacing: 0px;
+	background-color: #ddd;
+	width: 100%px;
+	min-width: 700px;
+	border: 1px solid #BBB;
+}
+.tbl_multi tr th{
+	background-color: #CCC !important;
+	padding: 3px 1em 3px 1em;
+	border-bottom: 1px solid #BBB;	
+}
+.tbl_multi tr td{
+	padding: 0 1em 0 1em;	
+	border-bottom: 1px solid #BBB;
+}
+.centrado{
+	text-align: center;
+}
+.derecha{
+	text-align: right;
+}
+.izquierda{
+	text-align: left !important;
+}

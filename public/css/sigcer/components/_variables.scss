@@ -1,0 +1,36 @@
+$contraste-color:				color("contraste",	"base")										!default;
+$primary-color:					color("gob",		"base")										!default;
+$line-primary-color:			color("gob",		"darken-1")									!default;
+$light-primary-color:			color("contraste",	"lighten-3")								!default;
+$body-background-color:			#F5F5F5															!default;
+$item-hover-color:				#F2F2F2															!default;
+$table-row-even-color:			#FAFAFA															!default;
+$border-light-color:			#E0E0E0															!default;
+$disabled-text-color:			#9E9E9E															!default;
+$modal-drop-shadow-color:		rgba(0,		0,		0,		0.2)								!default;
+$table-sort-inset-shadow-color:	rgba(106,	255,	69,		0.2)								!default;
+$element-drop-shadow-color:		rgba(18,	107,	0,		0.1)								!default;
+$screen-lock-color:				rgba(0,		0,		0,		0.5)								!default;
+
+$icon-font-path:				"../../fonts/iconfont/"											!default;
+$gob-font-path:					"../../fonts/gob/"												!default;
+
+$logo-large-path:				"../../images/logos/Logo-Large.png"					!default;
+$logo-small-path:				"../../images/logosMaterialize/Logo-Small.png"					!default;
+$logo-menu-path:				"../../images/fondo_campo.jpg"          						!default;
+$logo-menu-mobile-path:			"../../images/logosMaterialize/Logo-Mobile.svg"					!default;
+$scroll-up-path:				"../../images/logosMaterialize/scroll.png"						!default;
+$scroll-down-path:				"../../images/logosMaterialize/scroll-down.png" 				!default;
+
+$border-light:					1px solid $border-light-color									!default;
+
+$big-font-size:					18pt															!default;
+$medium-font-size:				14pt															!default;
+$small-font-size:				12pt															!default;
+$thiny-font-size:				9pt																!default;
+
+$media-large-only:				"only screen and (min-width : 993px)"							!default;
+$media-small-only:				"only screen and (max-width : 600px)"							!default;
+$media-medium-only:				"only screen and (min-width : 601px and (max-width : 992px)"	!default;
+$media-medium-large:			"only screen and (min-width : 601px)"							!default;
+$media-medium-small:			"only screen and (max-width : 992px)"							!default;

@@ -1,0 +1,13 @@
+/* ------ MI CLAVE ------- */ 
+.cambiarPass{
+	margin: 0 auto 0 auto;
+	border-spacing: 0px;
+	background-color: #eaeaea !important; 
+	width: 400px;	
+}
+.cambiarPass tr td{
+	
+	text-align: right !important;
+	padding: 0.5em 1em 0 1em;	
+}
+/* ------ FIN MI CLAVE ------- */

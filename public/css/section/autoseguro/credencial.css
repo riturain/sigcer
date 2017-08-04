@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+/* CREDENCIAL */ 
+.anchoCred{
+	max-width: 600px !important;
+	margin: 0 auto !important;
+}
+.anchoCred label{
+	font-weight: bold;
+}
+.bottom{
+	vertical-align:bottom;
+}
+fieldset{
+	background-color: #eaeaea !important;
+	font-size: 14px !important;
+}

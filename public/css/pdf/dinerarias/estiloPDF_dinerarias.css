@@ -1,0 +1,69 @@
+@CHARSET "ISO-8859-1";
+html, body { 
+	height: 100%;
+}
+body {
+	font-family: Calibri, Helvetica, Verdana, Arial;
+	font-size: 12px;
+	text-align: center;
+}
+@page {
+	margin-top: 0.5em;
+	margin-left: 0.8em;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#content{
+	padding-bottom:100px;
+}
+img {
+	border: none;
+}
+.banner{
+	margin-right: 0 !important;
+}
+
+.negrita{ font-weight: bold;}
+.subra{ text-decoration: underline;} 
+.upper{ text-transform: uppercase; }
+
+.bordeado{
+	border: 2px solid black;
+}
+
+.derecha{
+	text-align: right !important;
+}
+.izquierda{
+	text-align: left !important;
+}
+.aligIzq{
+	margin-left: 0;
+}
+
+.ancho{
+	width: 100%;
+}
+.amarillo{
+	background-color: yellow;
+}
+.bordeRow{
+  border-bottom:1pt solid black;
+}
+.footerText{
+	position:absolute;
+	width:100%;
+	height:100px;
+	bottom:0;
+	left:0;
+}
+.footerText *{
+	font-size: 10px !important;
+	text-align: left;
+}
+.fondo b{
+	background-color: yellow;
+	padding: 4px;
+}

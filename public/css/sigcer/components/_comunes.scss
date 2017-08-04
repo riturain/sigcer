@@ -1,0 +1,45 @@
+.unselectable{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.dark-border{
+	box-shadow: 0px 1px 0px 0px $line-primary-color, 0px -1px 0px 0px $line-primary-color;
+}
+
+.gob-font-bold{
+	font-family: Gob-Componentes,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+	text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gob-font-light{
+	font-family: Gob-Contenido,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+	text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.material-icons {
+	font-family: Material-Icons;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+	-moz-font-feature-settings: 'liga';
+	-moz-osx-font-smoothing: grayscale;
+}
+

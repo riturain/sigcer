@@ -1,0 +1,44 @@
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 0.65em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    width: 64px;
+}
+
+.badge-default {/* confeccion */
+    background-color: #636c72;
+}
+
+.badge-primary {/* finalizada */
+    background-color: #0275d8;
+}
+
+.badge-info {
+    background-color: #5bc0de;
+}
+
+.badge-success {/* aprobada */
+    background-color: #5cb85c;
+}
+
+.badge-warning {/* pendiente */
+    background-color: #f0ad4e;
+}
+
+.badge-danger {/* pendiente urgente */
+    background-color: red;
+}
+
+.badge-preseleccionado {/* pendiente urgente */
+    background-color: #5cb85c;
+    width: auto;
+}

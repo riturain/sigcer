@@ -1,0 +1,153 @@
+@media #{$media-medium-small} {
+	td.btn{
+		min-width: auto;
+		min-height: 28px !important;
+		padding: 3px 10px;
+		height: 28px;
+		line-height: normal;
+		margin: 0;
+		margin-top: 1px !important;
+	}
+}
+
+@media #{$media-medium-large} {
+	#toast-container {
+		top: auto !important;
+		left: auto !important;
+		right: 70px;
+		bottom: 10px;
+		width: 400px;
+		padding: 2px;
+	}
+	
+	.toast {
+		width:100%;
+		border-radius: 1px;
+		margin-top: 10px;
+	}
+	
+	header .nav-wrapper{
+		background-image: url($logo-large-path);
+		background-repeat: no-repeat;
+		background-position: 100px center;
+	}
+	
+	.side-nav{
+		width: 350px;
+	}
+}
+
+@media #{$media-small-only} {
+	#toast-container {
+		top: auto !important;
+		right: auto !important;
+		left: auto !important;
+		bottom: 0px;
+		min-width: 100%;
+	}
+	
+	.toast {
+		width:100%;
+		border-radius: 1px;
+		margin-top: 0px;
+	}
+	
+	#toast-container .toast .row .s8 i{
+		display: none;
+	}
+	
+	header .nav-wrapper{
+		background-image: url($logo-small-path);
+		background-repeat: no-repeat;
+		background-position: 100px center;
+	}
+	
+	.side-nav{
+		width: 88vw !important;
+	}
+}
+
+@media #{$media-large-only} {
+	.thbutton{
+		width:38px;
+	}
+
+	.verticaldivisor {
+		box-shadow: 1px 0px 0px 0px $border-light-color, 1px 0px 0px 0px $border-light-color, 1px 0px 0px 0px $border-light-color;
+	}
+	
+	.verticaldivisor + div {
+		box-shadow: inset 1px 0px 0px 0px $border-light-color, inset 1px 0px 0px 0px $border-light-color, inset 1px 0px 0px 0px $border-light-color;
+	}
+
+	.col.l2 .card .card-image img{
+		max-height: 166px;
+		max-width: 166px;
+	}
+}
+
+//@media #{$media-medium-only} {
+//
+//}
+
+@media only screen and (max-height : 660px) {
+	.picker__date-display{
+		display: none;
+	}
+	
+	.picker--opened .picker__frame {
+		top: 10%;
+	}
+}
+
+@media print {    
+	body {
+		background-color: white !important;
+		box-shadow: none;
+	}
+	
+	.unprintable,{
+		display: none;
+	}
+	
+	header, footer, #slide-out, #sidenav-overlay, .unprintable, .btn:not(td), .botonera, .dataTables_paginate, .picker, .btn-floating, .dataTables_filter, .pagination, .caret, .tab > a:not(.active) {
+		display: none !important;
+	}
+
+	div, table, thead, tbody, tr, th, td, h1, h2, h3, h4, h5, h6{
+		box-shadow: 0 0 0 0 transparent !important;
+		text-shadow: none !important;
+	}
+
+	h1, td.btn{
+		background-color: transparent !important;
+	}
+	
+	td.btn{
+		color: transparent !important;
+	}
+	
+	.collapsible-body{
+		display: block !important;
+	}
+
+	th.sorting_desc, th.sorting_asc, th.sorting {
+		background: none;
+	}
+	
+	.zoomable .container{
+		padding: 0px !important;
+		margin: 0px !important;
+		background-color: white !important;
+		box-shadow: none;
+		width: auto !important;
+		min-height: 0px !important;
+		page-break-after: always;
+	}
+}
+
+@page
+{
+	size: A4;
+	margin: 1cm;
+}

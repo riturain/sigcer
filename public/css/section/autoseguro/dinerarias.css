@@ -1,0 +1,42 @@
+.ancho{
+	width: 100%;
+}
+.center{
+	text-align: center;
+}
+.izquierda{
+	text-align: left;
+}
+fieldset ul li{
+	list-style:none;
+}
+
+
+.avisoDinerarias{
+	background-color: #eaeaea;
+	padding: 1em;
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.avisoDinerarias ul{
+	list-style-type: none;
+	padding-left: 0em;
+	text-align: left;
+}
+.avisoDinerarias ul li {
+	font-size: 18px;
+	padding-bottom: 2em;
+}
+.notif{
+	width: 400px;
+	color: brown;
+	font-size: 14px;
+	font-weight: bold;
+}
+.avisoDine{
+	background-color: #eaeaea;
+}
+h3{
+	color: gray;
+}

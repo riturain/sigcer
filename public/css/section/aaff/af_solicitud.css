@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+#asigpedidas{
+	margin: 0 auto 0 auto;
+	border-spacing: 0px;
+	background-color: #ddd;
+	width: 600px;
+}
+#asigpedidas tr th{
+	background-color: #9aca3c !important;
+	padding: 0 1em 0 1em;
+}
+#asigpedidas tr td{
+	padding: 0 1em 0 1em;
+}
+
+.dialogAFVigente{
+	color: red;
+}
+
+#btnNuevaAsig{
+	padding: 1em;
+	background-color: #9aca3c;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+fieldset {
+    background-color: #eaeaea !important;    
+}
+#tabla_af1 label{
+	font-weight: bold;
+}

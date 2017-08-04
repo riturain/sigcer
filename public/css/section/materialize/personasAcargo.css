@@ -1,0 +1,276 @@
+ html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+.data_Rap_container{
+    float: left;
+    width: 92%;
+}
+
+#data_left_container{
+    float: left;
+    padding-left: 1em;
+   
+}
+#data_right_container{
+    float: left;
+    padding-left: 1em;
+   
+}
+
+#dat_estruc{
+    width: 300px;
+}
+
+#formPerfil{
+/*	text-align: left;*/
+	padding-left: 1em
+}
+.button_navegation, input{
+    width: 30px;
+    
+}
+input[type=checkbox] {
+
+    width: 15px;
+    height:15px
+}
+
+
+
+#grilla_Rap_container{
+    float: right;
+    width: 50%;
+/*    border-style: ridge */
+}
+
+
+
+#data_left{
+    float: left;
+    padding-left: 5em;
+    margin-left: 20px;
+    width: 415px;
+    border-style: ridge   
+}
+
+.dat_Desde{
+    width: 70px; 
+}
+
+.buton_guardarCargo{
+    width: 80%;
+    margin-left: 12%;    
+}
+
+
+#data_table {
+    
+	width: 70%;
+        border: none;
+}
+
+.td_label {
+	width:15%
+}
+input {
+	width: 90%;
+}
+
+/*.data_right{
+    float: left;
+    
+}*/
+
+h3 {
+    text-align: center;
+}
+
+#clear{
+    clear:right;
+}
+
+/*table.dataTable {
+	margin: 0 ;
+	clear: both;
+	width: 50%;
+}*/
+/*.izq{
+    float: left;
+}*/
+/*.izqCheck{
+    width: 50%;
+    height: 20%;
+}*/
+
+/*.izqColumnas{
+    width: 50%;
+    height: 20%;
+}*/
+
+/*
+ * Table wrapper
+ */
+/*.dataTables_wrapper {
+	position: relative;
+	clear: both;
+	*zoom: 1;
+}*/
+/*.ui-widget {
+     max-height: 250px; 
+  
+    text-align: left;
+    
+}*/
+
+/*
+ * Table information
+ */
+/*.dataTables_info {
+	clear: both;
+	float: left;
+}*/
+
+
+
+/*#dat_estructura{
+    width: 130% 
+}*/
+
+
+/*.data_right{
+    float: right;
+    padding-right: 1em;
+}*/
+
+
+
+/*.dat_rol{
+    width: 5%;
+}*/
+
+
+/*.td_label {
+	width:15%
+}*/
+
+
+
+/*.button_nav{    
+    width: 10%;    
+}*/
+/*
+.textoSuplentes{
+    float: left;
+    width: 100%;
+
+    
+}*/
+
+/*fieldset a:link, fieldset a:visited {
+    background-color: #9aca3c;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}*/
+/*fieldset a:hover, fieldset a:active {
+    background-color: #8ac83c;
+}*/
+
+
+
+
+
+
+/*#sec_datos_personales{
+	display: table;	
+}*/
+/*#sec_datos_personales section{
+	display: table-row; 
+	border-style: solid; 
+	border-width: 2px; 
+}*/
+
+
+/*#sec_datos_personales label, #sec_datos_personales input{
+	display: table-cell;	
+	vertical-align: top;
+}*/
+
+/*.butoon_guardarCargo{
+    width: 100%
+}*/
+
+/*.estructura{
+	font-weight:bold;
+	font-size: 16px;
+}*/
+
+/*#dat_Sexo, #dat_EstadoCivil, #dat_TipoDoc, #dat_MaxNivEducativo, #dat_estadoEstudios, #field_tipo, #field_parentesco {
+	width: 20%;
+}*/
+
+/*#dat_NroDocumento, #field_documento {
+	width: 69.7%;
+}*/
+
+    /*#dat_TelCelularCar {
+            width: 20%;
+    }*/
+/*#dat_TelCelular {
+	width: 67%;
+}*/
+/*#field_apellido, #field_name, #field_nacimiento {
+	width: 76% !important;
+	margin-top: 4px !important;
+}*/
+/*#field_tipo_int, #field_parentesco_int, #field_discapacitado {
+	width: 17% !important;
+	margin-top: 4px !important;	
+}*/
+/*#field_documento_int {
+	width: 59% !important;
+	margin-top: 4px !important;
+}*/
+/*#label_field_apellido, #label_field_name, #label_field_nacimiento {
+	margin-right: 11.7% !important;
+}*/
+/*#label_field_nacimiento {
+	margin-right: 6% !important;
+}*/
+/*#label_field_tipo {
+	margin-right: 4.1% !important;
+}*/
+/*#label_field_parentesco {
+	margin-right: 10.2% !important;
+}*/
+/*#label_field_discapacitado {
+	margin-right: 9.3% !important;
+}*/
+/*.gris{
+	color: #888;
+}*/
+/*input[readonly]{
+    background-color: #E6E6E6;
+}*/
+/*#locationField input, #location2Field input {
+    background-color: #E0F8E0;	
+}*/
+  
+  
+/*.ui-autocomplete {
+max-height: 200px;
+max-width: 60%;
+font-size: 11px;
+overflow-y: auto;
+ prevent horizontal scrollbar 
+overflow-x: auto;
+}*/
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+/** html .ui-autocomplete {
+height: 100px;
+}*/

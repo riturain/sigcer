@@ -1,0 +1,24 @@
+// _variables.scss
+$primary-color: color("gob", "base") !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+
+$secondary-color: color("gob", "base") !default;
+$success-color: color("green", "base") !default;
+$error-color: color("red", "base") !default;
+$link-color: color("gob", "darken-3") !default;
+$background-color: color("grey", "accent-4") !default;
+
+// _color.scss
+$gob: (
+  "lighten-3":  #66CCFF,
+  "lighten-2":  #44AAEE,
+  "lighten-1":  #2292DD,
+  "base":       #0092BB,
+  "darken-1":   #0077BB,
+  "darken-2":   #0055AA,
+  "darken-3":   #004599
+);
+
+"shades": $shades,
+"gob": $gob

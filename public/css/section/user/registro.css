@@ -1,0 +1,12 @@
+/* ------ REGISTRO ----- */
+#form_reg{
+    background-color: #eaeaea;
+    text-align: left;
+    margin: auto auto auto auto;
+    padding: 1em;
+    width: 35%;
+    -webkit-border-radius: 3px 5px 1px 4px;    
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999;
+}
+/* ------ FIN REGISTRO ----- */

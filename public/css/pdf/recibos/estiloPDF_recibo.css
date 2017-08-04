@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+html, body { 
+	height: 100%;
+}
+@page {
+	margin-top: 1em;
+	margin-left: 1em;
+}
+body {
+	font-family: Arial, Calibri, Helvetica, Verdana;
+	/*font-size: 10pt;*/
+	text-align: center;
+}
+#wrapper{	
+	width: 1950px;
+	height: 900px;	
+}
+.tablaLogo{		
+	border-collapse: collapse !important;
+	border: 0px;
+	text-align: center;	
+	width: 1950px;
+}
+.imagenCabecera{
+	height: 150px;
+	background-size:1950px 150px;	
+	background-repeat:no-repeat;
+	background-position: left !important;	
+	font-weight: bold;
+	font-size: 24px;
+}
+.tablaSueldo{
+	width: 1950px;
+	border-spacing: 0.3em !important;	
+}
+.fuenteDatos{
+	font-size: 22px !important;
+}
+.fuenteChica{
+	font-size: 12px !important;
+}
+.fuenteTotales{
+	font-size: 22px !important;
+}
+.izquierda{
+	text-align:left;
+}
+.derecha{
+	text-align:right;
+}
+.centrado{
+    text-align: center !important;
+}
+.cuadrito{
+	border: 1px solid black !important;		
+	font-size: 25px;
+}
+.cabeceras_cols{
+	font-size: 16px;	
+	/*height: 100px;
+	background-color: red;*/
+}
+.logoBA{	
+	background-size:1950px 150px;	
+	background-repeat:no-repeat;
+	background-position: center bottom !important;		
+	opacity: 0.5;
+}
+.fondo_verde{
+	background-color: white;
+}
+.doble{
+	height: 50px !important;
+}

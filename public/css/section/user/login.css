@@ -1,0 +1,22 @@
+body{
+	background-image: url("../../../images/login/login.png") !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: top center !important;
+	box-shadow: none !important;
+}
+
+main div.container {
+    background-color: transparent !important; 
+    box-shadow: none; 
+}
+
+.contenedor-login{
+	background-color: white;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+}
+
+label i{
+	padding-right: 10px;
+}

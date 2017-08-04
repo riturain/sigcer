@@ -1,0 +1,26 @@
+#htaccess Options
+
+# DirectoryIndex main.php //cambiar nombre de archivo de carga por defecto 
+
+# Options -Indexes
+
+# IndexIgnore *.php
+
+#<files aduanas.php>
+#	order allow,deny
+#	deny from all
+#</files>
+
+#<FilesMatch "\.(php)">
+#	order allow,deny
+#	deny from all
+#</FilesMatch>
+
+#IndexIgnore *
+
+#AddDefaultCharset utf-8
+#AddDefaultCharset iso-8859-1
+
+<Directory "/model/">
+deny from all
+</Directory>

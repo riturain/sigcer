@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+#solicitarTurno{
+	margin: 0 0 0 2em;
+	width: 600px;
+	text-align: left;
+}
+#dialogTurnos table{
+	margin: auto auto;
+}
+.btn_cancelar{
+	margin: 0;
+	font: inherit;
+	color: inherit;
+	text-transform: none;
+	-webkit-appearance: button;
+	cursor: pointer;
+	color: #a94442;
+    background-color: #f2dede;
+}
+.btn_confirmar{
+	margin: 0;
+	font: inherit;
+	color: inherit;
+	text-transform: none;
+	-webkit-appearance: button;
+	cursor: pointer;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+.msgConfirmacion{
+	background-color: #eaeaea;
+	text-align: left;
+	width: 600px;
+	margin: 0 auto;
+	padding: 1em;
+	font-size: 14px;
+}
+.tabla{
+	margin: 0 auto 0 auto;
+	border-spacing: 0px;
+	background-color: #ddd;
+	width: 300px;
+}
+.tabla tr th{
+	background-color: #9aca3c !important;
+	padding: 0 1em 0 1em;
+}
+.tabla tr td{
+	padding: 0 1em 0 1em;
+}
+/*
+.tabla table { width: 640px; border-collapse: collapse;}
+.tabla td, th { border: 1px solid transparent; height: 30px; }
+.tabla th { background: #D3D3D3; font-weight: bold; }
+.tabla td { background: #FAFAFA; text-align: center; }
+.tabla tr:nth-child(even) td { background: #F1F1F1; }  
+.tabla tr:nth-child(odd) td { background: #FEFEFE; } */
+
+.completarMedicos{
+	padding-left: 2em;
+}
+.aclaracion{
+	background-color: #eaeaea;
+	padding: 1em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+.centrado{
+	text-align: center;
+	margin: 0 auto;
+}

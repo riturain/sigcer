@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+.tablaResultados{
+	margin: 0 auto 0 auto;
+	border-spacing: 0px;
+	background-color: #ddd;
+	min-width: 300px;
+	border: 1px solid black; 
+}
+
+.tablaResultados tr th{
+	background-color: #9aca3c !important;
+	padding: 0 1em 0 1em;
+}
+
+.tablaResultados tr td{
+	padding: 0 1em 0 1em;
+}
+
+.tablaResultados tbody button{
+    background-color: #9aca3c;
+    color: white;
+    font-weight: bold;	
+}
+.comentario{
+	font-style:italic;
+	color: gray;
+}

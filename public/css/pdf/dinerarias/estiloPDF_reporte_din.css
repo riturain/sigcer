@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+html, body { height: 100%; }
+body {
+	/*background-color: #E2E2E2;*/
+	margin: 0 0 0 0;
+	font-family: Verdana, Helvetica, Calibri, Arial;
+	font-size: 10px;	
+	text-align: center;
+	/*background-color: yellow;*/
+}
+@page {
+	margin-top: 0.5em;
+	margin-left: 0.8em;
+}
+img {
+	border: none;
+}
+h1, h2, h3, h4 {
+	text-align: center;
+	color: black;
+}
+
+.centrado{
+	text-align: center;
+}
+.comentario{
+	font-size: 50%;
+}
+.alignDerecha{
+	text-align: right;
+}
+.alignIzquierda{
+	text-align: left;
+}
+
+.tablaLogo{
+	width: 720px;
+	/*border: 1px solid black;*/
+}
+/*.tablaLogo tr td{
+	border: 1px solid black;
+}*/
+
+.detalles{
+	width: 720px;
+	font-size: 11px;
+	border-spacing: 0px;
+	/*border: 1px solid black;*/
+}
+.detalles tr th{
+	font-weight: bold;
+	/*border: 1px solid black;*/
+}
+.detalles thead th{
+	border-bottom: 3px solid black !important;	
+}
+.detalles tbody tr td{
+	height: 20px;
+}
+
+.cabeceras td{
+	height:28px !important;
+	font-weight: bold;
+}
+.datos_personales{
+	font-size: 15px;
+	margin:auto; 
+	width:720px; 
+	/*border:1px solid black;*/
+}

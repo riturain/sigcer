@@ -1,0 +1,28 @@
+.data_Rap_container{
+    float: left;
+    width: 90%;
+}
+#data_left_container {
+    float: left;
+    padding-left: 17em;
+}
+input[type=checkbox] {
+
+    width: 15px;
+    height:15px;
+}
+
+.inputck {
+   position: relative !important;
+   left: 59px !important;
+   opacity: 1 !important;
+}
+
+input {
+
+    /*width: 15px;*/
+    width: 100%;
+    height:15px;
+    border:none;
+}
+

@@ -1,0 +1,99 @@
+#formPerfil{
+	text-align: left;
+	padding-left: 1em;
+}
+#sec_datos_personales{
+	display: table;	
+}
+#sec_datos_personales section{
+	display: table-row; 
+	border-style: solid; 
+	border-width: 2px; 
+}
+#sec_datos_personales label, #sec_datos_personales input{
+	display: table-cell;	
+	vertical-align: top;
+}
+
+.data_table {
+	width: 100%;
+}
+
+.td_label {
+	width:15%
+}
+input {
+	width: 90%;
+}
+
+.estructura{
+	font-weight:bold;
+	font-size: 16px;
+}
+
+#dat_Sexo, #dat_EstadoCivil, #dat_TipoDoc, #dat_MaxNivEducativo, #dat_estadoEstudios, #field_tipo, #field_parentesco {
+	width: 20%;
+}
+
+#dat_NroDocumento, #field_documento {
+	width: 69.7%;
+}
+
+#dat_TelCelularCar {
+	width: 20%;
+}
+#dat_TelCelular {
+	width: 67%;
+}
+#field_apellido, #field_name, #field_nacimiento {
+	width: 76% !important;
+	margin-top: 4px !important;
+}
+#field_tipo_int, #field_parentesco_int, #field_discapacitado {
+	width: 17% !important;
+	margin-top: 4px !important;	
+}
+#field_documento_int {
+	width: 59% !important;
+	margin-top: 4px !important;
+}
+#label_field_apellido, #label_field_name, #label_field_nacimiento {
+	margin-right: 11.7% !important;
+}
+#label_field_nacimiento {
+	margin-right: 6% !important;
+}
+#label_field_tipo {
+	margin-right: 4.1% !important;
+}
+#label_field_parentesco {
+	margin-right: 10.2% !important;
+}
+#label_field_discapacitado {
+	margin-right: 9.3% !important;
+}
+.gris{
+	color: #888;
+}
+input[readonly]{
+    background-color: #E6E6E6;
+}
+#locationField input, #location2Field input {
+    background-color: #E0F8E0;	
+}
+  
+  
+.ui-autocomplete {
+max-height: 200px;
+max-width: 60%;
+font-size: 11px;
+overflow-y: auto;
+/* prevent horizontal scrollbar */
+overflow-x: auto;
+}
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+height: 100px;
+}

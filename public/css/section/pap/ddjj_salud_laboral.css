@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+
+#hc_ddjj_form{
+	padding: 2em;
+	clear: both;
+}
+
+fieldset {
+    background-color: #eaeaea !important;    
+}
+
+.cabecera {
+    padding-top: 20px !important;    
+}

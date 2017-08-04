@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+html, body { height: 100%; }
+body {
+	margin: 0 0 0 0;
+	font-family: Calibri, Helvetica, Verdana, Arial;
+	font-size: 14px;	
+}
+@page {
+	margin-top: 0.5em;
+	margin-left: 1em;	
+}
+h1, h2, h3, h4 {
+	text-align: center;
+	color: black;	
+}
+.credencial{
+	background-image: url('../../../images/credencial/n_crede.jpg');
+	background-size:1849px 550px;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-position: center; 
+	height: 550px;
+	margin: 5px auto;
+	padding: 10px;
+	border: 5px dotted gray;
+	width: 100%;
+}
+.tam_font{
+	font-size: 25px;
+	font-weight:bold;
+}
+.tam_font_2{
+	font-size: 20px;
+	font-weight:bold;
+}
+.tam_enter{
+	font-size: 15px;
+}
+.qr{	
+	position: absolute;
+	z-index: 2;
+	left: 640px;
+	top: 275px;
+}

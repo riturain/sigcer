@@ -1,0 +1,138 @@
+
+fieldset {
+	background-color: #ffffff !important;
+}
+
+.enlaceSolicitud{
+	padding-left: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.texto-pendiente {/* estado 1*/
+    color: #000;
+    /*font-weight:bold;*/
+}
+.texto-rechazada {/* estado 2*/
+    color: #f00;
+    font-weight:bold;
+}
+.texto-aprobada {/* estado 3*/
+	color: #9aca3c;
+	font-weight:bold;
+}
+.texto-confeccion {/* estado 4*/
+   color: #000;
+   font-weight:bold;
+}
+.texto-finalizada {/* estado 5*/
+   color: #888;
+   /*font-weight:bold;*/
+}
+.masInfo:link, .masInfo:visited, .masInfo:active, .masInfo:focus, .masInfo:link  {
+	color: #000;
+    text-decoration: underline;
+}
+
+#solicitudesTableInscriptos tr th{
+	background-color: #9aca3c;
+	font-weight:bold;
+	color:white;
+	text-align: center;
+	border: 1px solid black;
+}
+#solicitudesTableInscriptos tr td{
+	border: 1px solid black;
+	/*background-color: #DDDDDD;*/
+}
+#solicitudesTableInscriptos {
+	border: 1px solid black;
+	border-collapse:collapse;
+	max-width: 800px;
+	font-size: 14px;
+}
+
+#solicitudesTable {
+	font-size: 14px;
+	margin-bottom: 4px;
+    padding: 1em;
+}
+/* se paso al css de datatables
+#solicitudesTable tr th{
+    background-color: #9aca3c;
+    font-weight:bold;
+    color:white;
+    text-align: center;
+    padding: 1px;
+}
+#solicitudesTable tr td{
+    padding: 2px 8px 0px 5px;
+	font-family:arial;
+	color:#333;
+	font-size:12px;
+	line-height:17px;
+}
+*/
+.unMargen{
+	padding-left: 1em;
+}
+
+.centrado{
+	text-align:center;
+}
+h1, h2, h3 {
+	color: #9aca3c;
+	margin-top: 13px;
+	padding-top: 0;
+}
+.requiredLegend {
+	font-family: 'Source Sans Pro',Calibri, sans-serif, Verdana, Arial;
+	font-size: 12px;
+	font-style: italic;
+	color: red;
+	text-align: right;
+	padding-right: 46px;
+}
+
+.noBorder {
+	max-width:90%;
+	margin: 0 auto;
+}
+
+.texto-ayuda {
+	margin-top: 5px;
+   font-weight: bold;
+}
+
+.label {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.label {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.label-info {
+    background-color: #9aca3c;
+}
+
+.menuItemsSolicitudes, a :active, a:link, a:visited, a:hover, a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: inherit;
+}
+
+.disabledItemStyle {
+    color: #ccc !important;
+    cursor: default;
+}

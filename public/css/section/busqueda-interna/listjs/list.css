@@ -1,0 +1,140 @@
+
+#solicitudes .search {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    padding:7px 14px;
+    margin-bottom:10px;
+    width: 40%;
+}
+#solicitudes .search:focus {
+    outline:none;
+    border-color:#aaa;
+}
+.sort {
+    border-radius: 999rem;
+    padding:4px 20px;
+    border:none;
+    display:inline-block;
+    text-decoration: none;
+    height:26px;
+}
+.sort:hover {
+    text-decoration: none;
+    background-color: #999999;
+}
+.sort:focus {
+    outline:none;
+}
+.sort:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+}
+.sort.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:13px;
+    right:-5px;
+}
+.sort.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+}
+
+.list li {
+    padding: 8px 45px 0px 5px;
+    font-family: arial;
+    color: #333;
+    font-size: 12px;
+}
+
+.list div {
+    padding: 2px 2px 4px 0;
+}
+
+.list .puesto {
+    padding-top: 5px;
+    border-top: 2px solid #9aca3c;
+}
+
+#list-options {
+    border: 0px solid;
+    margin: 0 0 5px 45px;
+    text-align: left;
+}
+
+#lista {
+    margin-top: 40px;
+}
+
+#lista ol{
+    width: 60em;  /* room for 3 columns */
+}
+
+#lista ol li{
+    float: left;
+    width: 25em;  /* accommodate the widest item */
+}
+
+/* stop the floating after the list */
+br {
+    clear: left;
+}
+
+/* separate the list from what follows it */
+div#list-options {
+    margin-bottom: 1em;
+}
+
+#lista ol li a:hover {
+    color: #FFF; /* white */
+    background-color: #A52A2A; /* brown */
+}
+
+#solicitudes .badge {
+    padding: 0.65em .8em;
+}
+
+.pagination li {
+    display:inline-block;
+    padding:5px;
+}
+
+.page {
+    color: #333;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: -5px;
+}
+
+.lead {
+    font-size: 21px;
+}
+.lead {
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.lead p {
+    margin-top: 8px;
+}

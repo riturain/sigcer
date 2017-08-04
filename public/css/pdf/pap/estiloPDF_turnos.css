@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+html, body { height: 100%; }
+body {
+	/*background-color: #E2E2E2;*/
+	margin: 0 0 0 0;
+	font-family: Calibri, Helvetica, Verdana, Arial;
+	font-size: 11px;	
+	text-align: center;
+	/*background-color: yellow;*/
+}
+@page {
+	margin-top: 0.5em;
+	margin-left: 0.8em;
+}
+img {
+	border: none;
+}
+h1, h2, h3, h4 {
+	text-align: center;
+	color: black;
+}
+h5 {
+	text-align: left;
+	text-decoration: underline;
+	color:#3E576F;
+}
+.derecha{
+	float: right;
+}
+.titulo{
+	margin: 0 auto 0 auto;
+	text-align: left;
+	width: 35%;
+}
+.cuadrito{
+	border: solid 1px black;
+}
+.altoCuadrito{
+	height: 6em;
+}
+.altoCuadritoTratamiento{
+	height: 4em;
+}
+.textoUP{ 
+	vertical-align:text-top;
+}
+.textoDOWN{
+	vertical-align:text-bottom;
+}
+.centrado{
+	text-align: center;
+}
+.comentario{
+	font-size: 50%;
+}
+.alignDerecha{
+	text-align: right;
+}
+.alignIzquierda{
+	text-align: left;
+}
+.topic1{
+	background-color: #555;
+	color: white;
+}
+.topic2{
+	background-color: #888;
+	color: white;
+}
+.topic3{
+	color: white;
+	font-size: 50%;
+}
+.seccion{
+	background-color: #ddd;
+}
+.opc_form {
+	background-color: #ddd;
+	color: black;
+	font-weight: bold;
+	padding:0.5em;
+	margin: 1em;
+	border-style: outset;
+	border-color: gray;
+	border-width: 1px;
+	text-decoration: none;
+}
+.activo{
+	background-color: #96c401;
+	border-color: orange;
+	color: white;
+}
+.ui-widget {
+	max-height: 250px;
+	font-size: 80%;
+	padding: 0;
+	margin:0;
+	text-align: left;
+	overflow-y: auto;	
+	overflow-x: hidden;
+}
+.mensajeNormal{
+	font-size: 70%;
+}
+#turnos-print table{
+	width: 770px;
+}
+.cuadro1{
+	border: solid 1px;
+	height: 6em;
+	font-size: 50%;
+	text-align: center;
+}
+.cuadro2{
+	border: solid 1px;
+	height: 6em;
+	font-size: 50%;
+	text-align: center;
+}
+.cuadro1f{
+	border: solid 1px;
+	height: 5.5em;
+	font-size: 50%;
+	text-align: center;
+}
+.cuadro2f{
+	border: solid 1px;
+	height: 5.5em;
+	font-size: 50%;
+	text-align: center;
+}
